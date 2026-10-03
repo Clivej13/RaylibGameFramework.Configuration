@@ -6,6 +6,12 @@
     <Nullable>enable</Nullable>
     <PackageId>RaylibGameFramework.Configuration</PackageId>
     <Version>0.1.0</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Tests/**/*.cs" />
+    <None Update="README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
 
 </Project>
