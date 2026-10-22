@@ -7,5 +7,8 @@
     <PackageId>RaylibGameFramework.Configuration</PackageId>
     <Version>0.1.0</Version>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Tests/**/*.cs" />
+  </ItemGroup>
 
 </Project>
